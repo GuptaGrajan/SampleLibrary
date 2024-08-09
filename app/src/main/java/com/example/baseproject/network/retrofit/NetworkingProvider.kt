@@ -21,7 +21,7 @@ object NetworkingProvider {
 
     @Singleton
     @Provides
-    fun provideLoggingInterceptor(): HttpLoggingInterceptor {
+    fun provideLoggingInterceptorBaseProject(): HttpLoggingInterceptor {
         val logging = HttpLoggingInterceptor()
         logging.level = HttpLoggingInterceptor.Level.BODY
         return logging
@@ -31,7 +31,7 @@ object NetworkingProvider {
 
     @Singleton
     @Provides
-    fun provideHttpClient(logging: HttpLoggingInterceptor): OkHttpClient {
+    fun provideHttpClientBaseProject(logging: HttpLoggingInterceptor): OkHttpClient {
         val httpClient = OkHttpClient.Builder()
         if (appInterceptor == null)
             appInterceptor = MyAppInterceptor()
@@ -46,7 +46,7 @@ object NetworkingProvider {
 
     @Singleton
     @Provides
-    fun provideApiProvider(okHttpClient: OkHttpClient): Retrofit {
+    fun provideApiProviderBaseProject(okHttpClient: OkHttpClient): Retrofit {
 
         return Retrofit.Builder()
             .baseUrl(Const.SERVER_URL)
@@ -59,7 +59,7 @@ object NetworkingProvider {
 
     @Singleton
     @Provides
-    fun provideApiService(retrofit: Retrofit): ApiService {
+    fun provideApiServiceBaseProject(retrofit: Retrofit): ApiService {
         return retrofit.create(ApiService::class.java)
     }
 }

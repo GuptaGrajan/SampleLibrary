@@ -3,24 +3,24 @@
 3    package="com.example.baseproject.test" >
 4
 5    <uses-sdk
-5-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:5:5-74
+5-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:5:15-41
+6-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:5:42-71
+7-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:11:5-15:78
+9-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:11:5-15:78
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:11:22-76
+10-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:14:22-52
+11-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:13:22-53
+12-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:13:22-53
 13        android:label="Tests for com.example.baseproject.test"
-13-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:15:22-76
+13-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:15:22-76
 14        android:targetPackage="com.example.baseproject.test" />
-14-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:12:22-74
+14-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:12:22-74
 15
 16    <uses-permission android:name="android.permission.INTERNET" />
 16-->[:app] D:\sdafaf\SampleLibrary\app\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-67
@@ -58,14 +58,14 @@
 31-->[androidx.core:core:1.13.1] C:\Users\Techglock\.gradle\caches\transforms-4\27f0c61a9c9aa1579d7a25ab142c2022\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 32
 33    <application
-33-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:7:5-9:19
+33-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:7:5-9:19
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.13.1] C:\Users\Techglock\.gradle\caches\transforms-4\27f0c61a9c9aa1579d7a25ab142c2022\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 35        android:debuggable="true"
 36        android:extractNativeLibs="false" >
 37        <uses-library android:name="android.test.runner" />
-37-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:8:9-60
-37-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9158355578718914102.xml:8:23-57
+37-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:8:9-60
+37-->D:\sdafaf\SampleLibrary\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest14727145824312755223.xml:8:23-57
 38
 39        <activity
 39-->[:app] D:\sdafaf\SampleLibrary\app\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-20:20
