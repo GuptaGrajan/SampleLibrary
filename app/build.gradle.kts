@@ -94,11 +94,11 @@ dependencies {
     implementation (libs.hilt.android)
     kapt (libs.hilt.compiler)
     implementation (libs.sdp.android)
-    implementation (libs.lottie)
-    implementation (libs.roundedimageview)
-    implementation (libs.shapeofview)
-    //Animated RecyclerView
-    implementation (libs.library)
+//    implementation (libs.lottie)
+//    implementation (libs.roundedimageview)
+//    implementation (libs.shapeofview)
+//    //Animated RecyclerView
+//    implementation (libs.library)
     // Glide
     implementation (libs.glide)
     annotationProcessor (libs.compiler)
