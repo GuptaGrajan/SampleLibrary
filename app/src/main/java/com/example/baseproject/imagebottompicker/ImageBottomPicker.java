@@ -79,8 +79,6 @@ public class ImageBottomPicker extends BottomSheetDialogFragment {
             if (newState == BottomSheetBehavior.STATE_HIDDEN) {
                 dismissAllowingStateLoss();
             }
-
-
         }
 
         @Override
