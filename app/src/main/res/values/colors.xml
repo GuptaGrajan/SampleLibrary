@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#168974</color>
+    <color name="colorPrimary">#168974</color>
+    <color name="colorAccent">#168974</color>
+    <color name="colorPrimaryLight40Percent">#66168974</color>
+    <color name="disableButtonColor">#9CCAC1</color>
+    <color name="colorPrimaryLight20Percent">#33168974</color>
+
+    <color name="blackDarkTransparent">#23000000</color>
+    <color name="darkTransparent">#78000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Image picker colors-->
+    <color name="bottompicker_camera">#000</color>
+    <color name="bottompicker_gallery">#ccc</color>
+    <color name="bottompicker_selected">#f0f0f0</color>
+
+
+
+
+    <color name="line_gray">#D8D8D8</color>
+    <color name="gray">#BAB8B8</color>
+    <color name="unselected_gray">#3C3C3C</color>
+    <color name="dimWhite">#E3FFFFFF</color>
+    <color name="offWhite">#D8D8D8</color>
+    <color name="text_color">#000000</color>
+    <color name="lightBlack">#ff323232</color>
+    <color name="sb__action_bg_color">#1affffff</color>
+    <color name="sb__background">#323232</color>
+    <color name="grey_alpha_50">#80bcbcbc</color>
+
+</resources>
