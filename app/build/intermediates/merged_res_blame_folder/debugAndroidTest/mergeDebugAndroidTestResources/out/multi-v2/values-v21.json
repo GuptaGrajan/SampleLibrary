@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.baseproject.test.app-mergeDebugAndroidTestResources-52:/values-v21/values-v21.xml",
+            "outputFile": "com.example.baseproject.test.app-mergeDebugAndroidTestResources-48:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Techglock\\.gradle\\caches\\transforms-4\\dd80ae081d37b5f608e1d7404a5b9ba0\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
