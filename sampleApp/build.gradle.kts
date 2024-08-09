@@ -83,23 +83,12 @@ dependencies {
     implementation (libs.converter.gson)
     implementation (libs.logging.interceptor)
     implementation (libs.httpclient)
-/*
-    implementation (libs.firebase.dynamic.links.ktx)
-    implementation (libs.firebase.crashlytics.ktx)
-    implementation (libs.firebase.analytics.ktx)
-    implementation (libs.firebase.messaging.ktx)
-    implementation (libs.firebase.core)
-    implementation (platform(libs.firebase.bom))*/
+
 
     implementation (libs.hilt.android)
     kapt (libs.hilt.compiler)
     implementation (libs.sdp.android)
-//    implementation (libs.lottie)
-//    implementation (libs.roundedimageview)
-//    implementation (libs.shapeofview)
-//    //Animated RecyclerView
-//    implementation (libs.library)
-    // Glide
+
     implementation (libs.glide)
     annotationProcessor (libs.compiler)
 
