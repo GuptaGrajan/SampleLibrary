@@ -5,6 +5,7 @@ plugins {
     id ("kotlin-android")
     id ("kotlin-kapt")
     id ("kotlin-parcelize")
+    id ("maven-publish")
 //    alias(libs.plugins.google.services)
     alias(libs.plugins.hilt.android)
 //    alias(libs.plugins.firebase.crashlytics)
@@ -56,6 +57,15 @@ buildFeatures{
 
 }
 
+publishing{
+    publications{
+        register<MavenPublication>("release"){
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
 dependencies {
 
     implementation(libs.androidx.core.ktx)
