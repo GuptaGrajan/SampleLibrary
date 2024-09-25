@@ -1,6 +1,4 @@
-# BaseProject
-
-
+# Sample Project
 
 ## Getting started
 
