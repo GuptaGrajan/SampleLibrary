@@ -126,6 +126,10 @@ dependencies {
     implementation(libs.okhttp) {
         exclude(group = "commons-collections", module = "commons-collections")
     }
+// https://mvnrepository.com/artifact/org.codehaus.groovy.modules.http-builder/http-builder
+    implementation("org.codehaus.groovy.modules.http-builder:http-builder:0.7.1"){
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
 
 
 
