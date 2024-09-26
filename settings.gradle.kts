@@ -20,7 +20,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        mavenLocal()
+//        mavenLocal()
         maven { url = uri("https://jitpack.io") }
 
         // OR publish to a remote repository, e.g., JFrog Artifactory, Nexus

@@ -126,9 +126,7 @@ dependencies {
     implementation(libs.okhttp) {
         exclude(group = "commons-collections", module = "commons-collections")
     }
-    implementation(libs.http.builder) {
-        exclude(group = "commons-collections", module = "commons-collections")
-    }
+
 
 
 }
