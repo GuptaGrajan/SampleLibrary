@@ -35,6 +35,8 @@ sdpAndroid = "1.1.1"
 tedonactivityresult = "1.0.6"
 databindingRuntime = "8.6.1"
 playServicesAuthApiPhone = "18.1.0"
+httpBuilder = "0.7.1"
+
 
 [libraries]
 
@@ -70,6 +72,8 @@ sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid
 tedonactivityresult = { module = "gun0912.ted:tedonactivityresult", version.ref = "tedonactivityresult" }
 androidx-databinding-runtime = { group = "androidx.databinding", name = "databinding-runtime", version.ref = "databindingRuntime" }
 play-services-auth-api-phone = { group = "com.google.android.gms", name = "play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+httpBuilder = { module = "org.codehaus.groovy.modules.http-builder:http-builder", version.ref = "httpBuilder" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

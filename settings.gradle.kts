@@ -1,3 +1,5 @@
+
+
 pluginManagement {
     repositories {
         google {
@@ -33,6 +35,7 @@ dependencyResolutionManagement {
         }*/
 
     }
+
 }
 
 rootProject.name = "Sample Library"

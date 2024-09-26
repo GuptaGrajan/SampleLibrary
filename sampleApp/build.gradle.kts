@@ -117,6 +117,10 @@ dependencies {
     implementation (libs.tedonactivityresult)
     implementation (libs.android.image.cropper)
     implementation (libs.libphonenumber)
+    implementation (libs.httpBuilder) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+
 
 
 

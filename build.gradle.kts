@@ -1,3 +1,15 @@
+
+
+
+// In your build.gradle.kts
+buildscript {
+    dependencies {
+        classpath(libs.httpBuilder)
+
+        // ... other classpath dependencies
+    }
+}
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     alias(libs.plugins.android.application) apply false
