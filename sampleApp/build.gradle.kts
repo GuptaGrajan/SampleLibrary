@@ -55,6 +55,13 @@ buildFeatures{
         jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
+    packagingOptions {
+        resources {
+            excludes += listOf("META-INF/DEPENDENCIES", "META-INF/LICENSE", "META-INF/NOTICE")
+        }
+    }
+
+
 }
 
 publishing{
@@ -105,5 +112,9 @@ dependencies {
     implementation (libs.tedonactivityresult)
     implementation (libs.android.image.cropper)
     implementation (libs.libphonenumber)
+    implementation(libs.httpcomponents.httpclient)
+    implementation(libs.okhttp)
+//    implementation(libs.http.builder)
+
 
 }
