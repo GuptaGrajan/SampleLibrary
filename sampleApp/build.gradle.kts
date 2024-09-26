@@ -86,10 +86,18 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation (libs.retrofit)
-    implementation (libs.converter.gson)
-    implementation (libs.logging.interceptor)
-    implementation (libs.httpclient)
+    implementation (libs.retrofit) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+    implementation (libs.converter.gson) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+    implementation (libs.logging.interceptor) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+    implementation (libs.httpclient) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
 
 
     implementation (libs.hilt.android)
@@ -112,9 +120,15 @@ dependencies {
     implementation (libs.tedonactivityresult)
     implementation (libs.android.image.cropper)
     implementation (libs.libphonenumber)
-    implementation(libs.httpcomponents.httpclient)
-    implementation(libs.okhttp)
-//    implementation(libs.http.builder)
+    implementation(libs.httpcomponents.httpclient) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+    implementation(libs.okhttp) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
+    implementation(libs.http.builder) {
+        exclude(group = "commons-collections", module = "commons-collections")
+    }
 
 
 }
