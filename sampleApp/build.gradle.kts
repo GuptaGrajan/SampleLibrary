@@ -1,14 +1,11 @@
 plugins {
     id ("com.android.library")
-//    alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id ("kotlin-android")
     id ("kotlin-kapt")
     id ("kotlin-parcelize")
     id ("maven-publish")
-//    alias(libs.plugins.google.services)
     alias(libs.plugins.hilt.android)
-//    alias(libs.plugins.firebase.crashlytics)
 
 }
 
@@ -120,16 +117,7 @@ dependencies {
     implementation (libs.tedonactivityresult)
     implementation (libs.android.image.cropper)
     implementation (libs.libphonenumber)
-    implementation(libs.httpcomponents.httpclient) {
-        exclude(group = "commons-collections", module = "commons-collections")
-    }
-    implementation(libs.okhttp) {
-        exclude(group = "commons-collections", module = "commons-collections")
-    }
-// https://mvnrepository.com/artifact/org.codehaus.groovy.modules.http-builder/http-builder
-    implementation("org.codehaus.groovy.modules.http-builder:http-builder:0.7.1"){
-        exclude(group = "commons-collections", module = "commons-collections")
-    }
+
 
 
 
